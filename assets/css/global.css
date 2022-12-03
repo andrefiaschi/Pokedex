@@ -1,0 +1,30 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Mobile First */
+
+.content {
+    padding: 1rem;
+}
+
+.content h1 {
+    margin: 1rem;
+}
+
+ol.pokemons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ol.pokemons li {
+    margin: .5rem;
+    padding: 1.5rem 1rem;
+    background-color: #14A06F;
+    border-radius: 1rem;
+    color: white;
+    height: 7rem;
+}
